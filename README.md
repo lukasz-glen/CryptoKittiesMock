@@ -7,11 +7,22 @@ It should not be used on the production.
 
 ## Install and run
 
-```shell
-npm install
+Requirements
+```
+nodejs v14.9.0
+yarn
+```
 
-npx hardhat compile
-
-npx hardhat test
+Install deps
+```
+yarn
+```
+Build contracts
+```
+yarn build
+```
+Run tests
+```
+yarn test
 ```
 
